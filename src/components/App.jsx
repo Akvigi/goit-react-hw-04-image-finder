@@ -8,7 +8,7 @@ import Modal from "./Gallery/Modal";
 
 const PER_PAGE = 20;
 
-export const App = () => {
+const App = () => {
   const [query, setQuery] = useState('')
   const [page, setPage] = useState(1)
   const [images, setImages] = useState([])
